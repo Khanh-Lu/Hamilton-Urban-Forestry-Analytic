@@ -1,0 +1,20 @@
+# Jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large binary / video files
+Action Day_Pictures/*.mp4
+Action Day_Pictures/*.jfif
+
+# Old versions (keep only final)
+Old_Version_Notebook/
+
+# Not needed on GitHub
+PosterDesign/
+Action Day_Pictures/
+Pictures/

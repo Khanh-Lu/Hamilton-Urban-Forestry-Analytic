@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>279a300f-c29b-3237-bda5-3eda1c538d00</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <gco:CharacterString>eng; CAN</gco:CharacterString>
+    </language>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact>
+        <CI_ResponsibleParty>
+            <organisationName>
+                <gco:CharacterString>City of Hamilton</gco:CharacterString>
+            </organisationName>
+            <contactInfo>
+                <CI_Contact>
+                    <address>
+                        <CI_Address>
+                            <deliveryPoint>
+                                <gco:CharacterString>71 Main Street West</gco:CharacterString>
+                            </deliveryPoint>
+                            <city>
+                                <gco:CharacterString>Hamilton</gco:CharacterString>
+                            </city>
+                            <administrativeArea>
+                                <gco:CharacterString>Ontario</gco:CharacterString>
+                            </administrativeArea>
+                            <postalCode>
+                                <gco:CharacterString>L8P 4Y5</gco:CharacterString>
+                            </postalCode>
+                            <country>
+                                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="CA" codeSpace="ISO3166-1">CA</Country>
+                            </country>
+                            <electronicMailAddress>
+                                <gco:CharacterString>gisservices@hamilton.ca</gco:CharacterString>
+                            </electronicMailAddress>
+                        </CI_Address>
+                    </address>
+                </CI_Contact>
+            </contactInfo>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2021-02-17</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <locale>
+        <PT_Locale>
+            <languageCode>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </languageCode>
+            <country>
+                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="CA" codeSpace="ISO3166-1">CA</Country>
+            </country>
+            <characterEncoding>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterEncoding>
+        </PT_Locale>
+    </locale>
+    <spatialRepresentationInfo>
+        <MD_VectorSpatialRepresentation>
+            <topologyLevel>
+                <MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
+            </topologyLevel>
+            <geometricObjects>
+                <MD_GeometricObjects>
+                    <geometricObjectType>
+                        <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115">composite</MD_GeometricObjectTypeCode>
+                    </geometricObjectType>
+                </MD_GeometricObjects>
+            </geometricObjects>
+        </MD_VectorSpatialRepresentation>
+    </spatialRepresentationInfo>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/26917</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>6.11(3.0.1)</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>GEODBA.PED_ZONING_BNDRY</gco:CharacterString>
+                    </title>
+                    <alternateTitle>
+                        <gco:CharacterString>Ped Zoning Bndry</gco:CharacterString>
+                    </alternateTitle>
+                    <date gco:nilReason="missing"/>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <individualName>
+                                <gco:CharacterString>Nada Belair</gco:CharacterString>
+                            </individualName>
+                            <organisationName>
+                                <gco:CharacterString>City of Hamilton;Planning and Economic Development;Planning</gco:CharacterString>
+                            </organisationName>
+                            <contactInfo>
+                                <CI_Contact>
+                                    <phone>
+                                        <CI_Telephone>
+                                            <voice>
+                                                <gco:CharacterString>905-546-2424 ext. 1232</gco:CharacterString>
+                                            </voice>
+                                        </CI_Telephone>
+                                    </phone>
+                                </CI_Contact>
+                            </contactInfo>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <presentationForm>
+                        <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+                    </presentationForm>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>The Zoning By-law regulates the use of land such as residential, commercial, industrial or institutional, as well as the location, size and height of buildings or structures, built form, sets out parking and loading requirements and other site specific requirements. Learn more about Zoning By-laws in HamiltonWhile every attempt is made to keep zoning information up to date, the City of Hamilton does not accept any responsibility for the accuracy of this information. Any reliance upon this information shall be at your own risk. Accordingly, verification of actual zoning for a particular property or properties must be obtained by way of a Zoning Verification Certificate from the City of Hamilton.</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>Zoning polygon boundaries that regulate permitted uses of land in Hamilton.</gco:CharacterString>
+            </purpose>
+            <resourceMaintenance>
+                <MD_MaintenanceInformation/>
+            </resourceMaintenance>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Zoning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Business &amp; Economy</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>Open Data Licence Terms and Conditions</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useLimitation>
+                        <gco:CharacterString>The City of Hamilton - Data Dissemination Policy</gco:CharacterString>
+                    </useLimitation>
+                    <otherConstraints>
+                        <gco:CharacterString>Restricted</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <language>
+                <gco:CharacterString>eng; CAN</gco:CharacterString>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <extent>
+                <EX_Extent/>
+            </extent>
+            <extent>
+                <EX_Extent>
+                    <description>
+                        <gco:CharacterString>City of Hamilton</gco:CharacterString>
+                    </description>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>-80.0274</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>-79.5124</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>43.1688</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>43.4211</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributor>
+                <MD_Distributor>
+                    <distributorContact>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>City of Hamilton</gco:CharacterString>
+                            </organisationName>
+                            <contactInfo>
+                                <CI_Contact>
+                                    <address>
+                                        <CI_Address>
+                                            <deliveryPoint>
+                                                <gco:CharacterString>71 Main Street West</gco:CharacterString>
+                                            </deliveryPoint>
+                                            <city>
+                                                <gco:CharacterString>Hamilton</gco:CharacterString>
+                                            </city>
+                                            <administrativeArea>
+                                                <gco:CharacterString>Ontario</gco:CharacterString>
+                                            </administrativeArea>
+                                            <postalCode>
+                                                <gco:CharacterString>L8P 4Y5</gco:CharacterString>
+                                            </postalCode>
+                                            <country>
+                                                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="CA" codeSpace="ISO3166-1">CA</Country>
+                                            </country>
+                                            <electronicMailAddress>
+                                                <gco:CharacterString>gisservices@hamilton.ca</gco:CharacterString>
+                                            </electronicMailAddress>
+                                        </CI_Address>
+                                    </address>
+                                </CI_Contact>
+                            </contactInfo>
+                        </CI_ResponsibleParty>
+                    </distributorContact>
+                </MD_Distributor>
+            </distributor>
+        </MD_Distribution>
+    </distributionInfo>
+    <dataQualityInfo>
+        <DQ_DataQuality>
+            <scope>
+                <DQ_Scope>
+                    <levelDescription>
+                        <MD_ScopeDescription>
+                            <dataset>
+                                <gco:CharacterString>GeoDBA</gco:CharacterString>
+                            </dataset>
+                        </MD_ScopeDescription>
+                    </levelDescription>
+                </DQ_Scope>
+            </scope>
+        </DQ_DataQuality>
+    </dataQualityInfo>
+</MD_Metadata>
