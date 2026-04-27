@@ -2,6 +2,8 @@
 
 > 🥇 **This Analysis won 1st Place — Presentation** &nbsp;|&nbsp; 🥉 **3rd Place Overall**
 
+![ST. Clair HEAD Competition](Pictures/ST.%20Clair%20HEAD.png)
+
 ---
 
 ## 🏆 Competition Overview
@@ -50,6 +52,8 @@ All core datasets were sourced from the **City of Hamilton's Open Data Portal**:
 
 Climate projections indicate Hamilton could experience **over 90 days above 30°C annually by 2075**, compared to roughly 15–20 days historically. Rising temperatures increase heat and drought stress in urban forests and accelerate the spread of invasive pests and tree diseases, creating new risks for long-term canopy stability.
 
+![Temperature Projection](Pictures/1.Temp.jpeg)
+
 Analysis of Hamilton's tree inventory highlights **three key vulnerability drivers**:
 
 | Driver                  | Description                                                                                               |
@@ -91,6 +95,10 @@ Each tree is assigned a composite score across three components:
 
 ### Example Tree Scores
 
+| | | |
+|:---:|:---:|:---:|
+| ![](Pictures/2_Clusters%20Map%20Zoom.png) | **→** | ![](Pictures/3_ZoomInCluster.png) |
+
 | Tree                    | DBH | INV | PEST | **Score** |
 | ----------------------- | --- | --- | ---- | --------- |
 | Norway Maple (Invasive) | 0.8 | 1.0 | 1.0  | **2.8**   |
@@ -102,6 +110,8 @@ Individual scores are aggregated per hexagonal cell. Cells exceeding a **thresho
 > **Example:** A hex cell containing the three trees above scores `2.8 + 1.0 + 1.5 = 187` → **HIGH RISK** ✅
 
 ### 🤖 Machine Learning — Agglomerative Clustering
+
+![ML Cluster](Pictures/4_ML_Cluster.png)
 
 **Agglomerative Clustering** is a bottom-up hierarchical clustering algorithm. Rather than requiring a predefined number of clusters upfront, it builds a tree of clusters (a _dendrogram_) by iteratively merging the closest data points or groups.
 
@@ -158,6 +168,8 @@ The resulting 15 clusters were then labeled as **Sensitive** or **Non-Sensitive*
 
 ## 🗺️ Cluster Analysis
 
+![Finding Map](Pictures/5.Finding%20Map.png)
+
 The city was divided into a **~260 m hexagonal grid** for spatial aggregation. High-risk cells (score > 150) were clustered into **15 priority intervention zones** using Agglomerative Clustering (Ward linkage).
 
 ### Risk Group Summary
@@ -202,6 +214,8 @@ The city was divided into a **~260 m hexagonal grid** for spatial aggregation. H
 - The highest urgency scores are concentrated in environmentally sensitive areas where pest pressure, invasive species presence, and canopy structure interact.
 
 ### Pest Exposure Risk
+
+<img src="Pictures/6_PEST_Visual.png" width="50%" />
 
 The total tree inventory covers **281,657 trees**, mostly in urban areas. Pest exposure is distributed as follows:
 
